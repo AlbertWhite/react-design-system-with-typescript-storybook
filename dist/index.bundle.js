@@ -1,4 +1,14 @@
-/******/ (function(modules) { // webpackBootstrap
+(function webpackUniversalModuleDefinition(root, factory) {
+	if(typeof exports === 'object' && typeof module === 'object')
+		module.exports = factory();
+	else if(typeof define === 'function' && define.amd)
+		define("exterior-ui-lib", [], factory);
+	else if(typeof exports === 'object')
+		exports["exterior-ui-lib"] = factory();
+	else
+		root["exterior-ui-lib"] = factory();
+})(window, function() {
+return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 /******/
@@ -266,3 +276,4 @@ var Text_Text = function Text(_ref) {
 
 /***/ })
 /******/ ]);
+});

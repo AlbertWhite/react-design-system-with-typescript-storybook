@@ -14,6 +14,9 @@ module.exports = {
   output: {
     filename: 'index.bundle.js',
     path: path.resolve(__dirname, 'dist'),
+    library: 'exterior-ui-lib',
+    libraryTarget: 'umd',
+    umdNamedDefine: true,
   },
   module: {
     rules: [
