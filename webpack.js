@@ -6,17 +6,13 @@ module.exports = {
     index: './src/index.js',
   },
   mode: 'production',
-  optimization: {
-    // We no not want to minimize our code.
-    minimize: false,
-  },
   plugins: [new CleanWebpackPlugin()],
   output: {
     filename: 'index.bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    library: 'exterior-ui-lib',
-    libraryTarget: 'umd',
-    umdNamedDefine: true,
+    library: 'exterior-ui-lib', // used for creating a lib
+    libraryTarget: 'umd', // used for creating a lib
+    umdNamedDefine: true, // used for creating a lib
   },
   module: {
     rules: [

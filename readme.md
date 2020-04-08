@@ -7,3 +7,7 @@
 https://github.com/microsoft/TypeScript-Babel-Starter
 
 [Atomic design](https://whatjackhasmade.co.uk/storybook-atomic-design-getting-started-with-storybook)
+
+https://krasimirtsonev.com/blog/article/javascript-library-starter-using-webpack-es6
+
+https://stackoverflow.com/questions/25956937/how-to-build-minified-and-uncompressed-bundle-with-webpack

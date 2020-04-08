@@ -5,6 +5,9 @@
   "repository": "git@github.com:AlbertWhite/Styled-system-and-storybook.git",
   "author": "Albert XU <xyb1114@gmail.com>",
   "license": "MIT",
+  "files": [
+    "./dist/index.bundle.js"
+  ],
   "scripts": {
     "type-check": "tsc --noEmit",
     "type-check:watch": "npm run type-check -- --watch",
