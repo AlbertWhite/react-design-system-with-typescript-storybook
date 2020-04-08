@@ -20,3 +20,9 @@ Things to note:
 3. Use of babel, webpack, eslint
 
 4. peer dependency, dev dependency
+
+5. typescript config
+
+6. css solution
+
+7. styled component / style system is for pure html tags

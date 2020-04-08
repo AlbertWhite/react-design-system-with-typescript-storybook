@@ -6,7 +6,7 @@ module.exports = {
     index: './src/index.tsx',
   },
   resolve: {
-    extensions: ['.ts', '.tsx'],
+    extensions: ['.js', '.jsx', '.ts', '.tsx'], // need for typescript
   },
   mode: 'production',
   devtool: 'source-map',
