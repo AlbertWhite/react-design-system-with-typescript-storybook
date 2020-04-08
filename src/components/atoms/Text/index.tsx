@@ -1,14 +1,9 @@
 import * as React from 'react';
-import Box from '../Box';
 
 interface TextProps {
   children: object;
 }
 
-const Text = ({ children }: TextProps) => (
-  <Box marginTop='30px'>
-    <p>{children}</p>
-  </Box>
-);
+const Text = ({ children }: TextProps) => <p>{children}</p>;
 
 export default Text;
