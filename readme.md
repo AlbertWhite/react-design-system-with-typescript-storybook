@@ -6,8 +6,17 @@
 
 https://github.com/microsoft/TypeScript-Babel-Starter
 
-[Atomic design](https://whatjackhasmade.co.uk/storybook-atomic-design-getting-started-with-storybook)
-
 https://krasimirtsonev.com/blog/article/javascript-library-starter-using-webpack-es6
 
 https://stackoverflow.com/questions/25956937/how-to-build-minified-and-uncompressed-bundle-with-webpack
+
+Things to note:
+
+1. webpack for lib and webpack for project is different.
+   https://webpack.js.org/guides/author-libraries/
+
+2. [Atomic design](https://whatjackhasmade.co.uk/storybook-atomic-design-getting-started-with-storybook)
+
+3. Use of babel, webpack, eslint
+
+4. peer dependency, dev dependency
