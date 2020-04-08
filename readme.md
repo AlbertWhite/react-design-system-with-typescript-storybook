@@ -10,6 +10,8 @@ https://krasimirtsonev.com/blog/article/javascript-library-starter-using-webpack
 
 https://stackoverflow.com/questions/25956937/how-to-build-minified-and-uncompressed-bundle-with-webpack
 
+https://codesandbox.io/s/04w296kk6p?file=/src/index.tsx:270-315
+
 Things to note:
 
 1. webpack for lib and webpack for project is different.
@@ -25,4 +27,6 @@ Things to note:
 
 6. css solution
 
-7. styled component / style system is for pure html tags
+7. styled component / style system is for pure html tags. box. container.
+
+8. storybook

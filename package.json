@@ -15,21 +15,18 @@
     "build:types": "tsc --emitDeclarationOnly",
     "build:js": "babel src --out-dir lib --extensions \".ts,.tsx\" --source-maps inline"
   },
-  "dependencies": {
-    "@types/object-assign": "^4.0.30",
-    "@types/styled-components": "^5.0.1",
-    "@types/styled-system": "^5.1.9",
-    "events": "^3.1.0",
-    "node-sass": "^4.13.1",
-    "object-assign": "^4.1.1",
-    "styled-components": "^5.1.0",
-    "styled-system": "^5.1.5"
-  },
+  "dependencies": {},
   "peerDependencies": {
     "react-dom": "^16.13.0",
     "react": "^16.13.0"
   },
   "devDependencies": {
+    "events": "^3.1.0",
+    "node-sass": "^4.13.1",
+    "styled-components": "^5.1.0",
+    "styled-system": "^5.1.5",
+    "@types/styled-components": "^5.0.1",
+    "@types/styled-system": "^5.1.9",
     "@babel/runtime": "^7.9.2",
     "source-map-loader": "^0.2.4",
     "storybook": "^5.3.14",
