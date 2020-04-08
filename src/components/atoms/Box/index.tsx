@@ -1,9 +1,10 @@
 import styled from 'styled-components';
-import { color, typography, space } from 'styled-system';
+import { color, ColorProps, space, SpaceProps } from 'styled-system';
 
-const Box = styled.div`
+type BoxProps = ColorProps & SpaceProps;
+
+const Box = styled.div<BoxProps>`
   ${color}
-  ${typography},
   ${space},
 `;
 
