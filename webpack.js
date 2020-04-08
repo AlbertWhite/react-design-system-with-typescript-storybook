@@ -20,8 +20,8 @@ module.exports = {
   },
   externals: {
     // avoid bundling all of React into the same file
-    react: 'React',
-    'react-dom': 'ReactDOM',
+    react: 'react',
+    'react-dom': 'react-dom',
   },
   module: {
     rules: [
