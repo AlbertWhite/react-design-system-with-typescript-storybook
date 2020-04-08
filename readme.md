@@ -29,4 +29,4 @@ Things to note:
 
 7. styled component / style system is for pure html tags. box. container.
 
-8. storybook
+8. storybook typescript
