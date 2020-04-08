@@ -1,2 +1,3 @@
 /// <reference types="react" />
-export declare let z: JSX.Element;
+declare const Link: () => JSX.Element;
+export default Link;

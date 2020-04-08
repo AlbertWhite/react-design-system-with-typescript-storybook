@@ -5,3 +5,5 @@
 5. devide three type of dependencies in package.json
 
 https://github.com/microsoft/TypeScript-Babel-Starter
+
+[Atomic design](https://whatjackhasmade.co.uk/storybook-atomic-design-getting-started-with-storybook)
