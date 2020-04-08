@@ -1,5 +1,4 @@
 const path = require('path');
-const webpack = require('webpack');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
@@ -7,12 +6,11 @@ module.exports = {
     index: './src/index.js',
   },
   mode: 'production',
-  plugins: [
-    new CleanWebpackPlugin(),
-    new webpack.DefinePlugin({
-      'process.env.NODE_ENV': JSON.stringify('production'),
-    }),
-  ],
+  optimization: {
+    // We no not want to minimize our code.
+    minimize: false,
+  },
+  plugins: [new CleanWebpackPlugin()],
   output: {
     filename: 'index.bundle.js',
     path: path.resolve(__dirname, 'dist'),
