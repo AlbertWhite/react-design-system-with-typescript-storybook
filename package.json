@@ -3,7 +3,7 @@
   "version": "1.0.11",
   "main": "dist/index.bundle.js",
   "repository": "git@github.com:AlbertWhite/Styled-system-and-storybook.git",
-  "author": "Albert XU <xyb1114@gmail.com>",
+  "author": "Albert XU",
   "license": "MIT",
   "files": [
     "./dist/index.bundle.js"
